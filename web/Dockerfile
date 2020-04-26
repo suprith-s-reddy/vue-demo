@@ -9,7 +9,6 @@ RUN npm install
 # copy all files to the work directory
 COPY . .
 # run the command
-# RUN npm run generate-sitemap
 RUN npm run build-prod
 
 FROM nginx
